@@ -16,7 +16,7 @@ import javax.persistence.Table;
     @NamedQueries({
         @NamedQuery(
                 name = "getAllTask",
-                query = "select a from Tasks as a order by  a.id desc"
+                query = "select y from Task as y order by  y.id desc"
                 )
     })
     @Table(name = "tasks")
